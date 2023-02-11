@@ -1,0 +1,85 @@
+
+body {
+    background-image: url('pexels-pixabay-531880.jpg')
+}
+
+#one {
+    width: 50%;
+    height: 46em;
+    border: solid black 1px;
+    background-color: rgb(243, 148, 6);
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+
+}
+#one:hover {
+    background-color: rgb(243, 148, 6, 0);
+}
+
+#two {
+    border: dotted black 2 px;
+    width: 75%;
+    height: 75%;
+    background-color: aquamarine;
+    position: relative;
+    top: 0;
+    left: 50px;
+
+}
+
+#three {
+    background-color:   greenyellow;
+    width: 75%;
+    height: 75%;
+    position: relative;
+    left: 50px;
+}
+
+#four {
+    background-color: red;
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 60px;
+}
+
+.column {
+    border: solid black 1px;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    background-color: hsla(50, 100%, 75%, 1);
+}
+
+.column:hover {
+    background-color: hsla(260, 100%, 75%, 1);
+    cursor: pointer;
+}
+#column1 {
+    float: left;
+}
+
+#column2 {
+    float: left;
+}
+
+#column3{
+    float: left;
+}
+
+/* 
+Common way to scale images
+
+ .container {
+    width: 50%;
+    height: 200px;
+    overflow: hidden;
+  }
+   
+  .container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  } */
