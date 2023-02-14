@@ -4,7 +4,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import scipy.stats
 
-class stock_data:  
+potential_invests = ['AAPL', 'IBM', 'CRWD']
+invested_stocks = ['stock here']
+
+
+class stock_data:
     def __init__(self, ticker, start_date, end_date, risk_free_rate=0):
         self.ticker = ticker
         self.start_date = start_date
